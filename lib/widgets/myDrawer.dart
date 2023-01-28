@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../pages/setting_screen.dart';
+import '../pages/settings_page.dart';
 import 'back_ground_color.dart';
 import 'build_list_tile.dart';
 
@@ -44,8 +45,8 @@ Widget myDrawer(BuildContext context) {
         myListTile(
           context: context,
           title: 'Fuck you',
-          icon: Icons.assessment,
-          goTo: const SettingScreen(),
+          icon: Icons.settings,
+          goTo: const SettingPage(),
         ),
       ],
     )
