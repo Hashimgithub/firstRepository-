@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import '../pages/setting_screen copy.dart';
+import '/core/language/app_localizations.dart';
 
 import '../pages/setting_screen.dart';
-import '../pages/settings_page.dart';
 import 'back_ground_color.dart';
 import 'build_list_tile.dart';
 
@@ -30,23 +31,23 @@ Widget myDrawer(BuildContext context) {
         ),
         myListTile(
           context: context,
-          title: 'Share App',
+          title: "shareapp".tr(context),
           icon: Icons.share_outlined,
-          goTo: const SettingScreen(),
+          goTo: const SettingsPageCubit(),
         ),
         const Divider(),
         myListTile(
           context: context,
-          title: 'Rate App',
+          title: "RateApp".tr(context),
           icon: Icons.star_rate,
           goTo: const SettingScreen(),
         ),
         const Divider(),
         myListTile(
           context: context,
-          title: 'Fuck you',
+          title: "settings".tr(context),
           icon: Icons.settings,
-          goTo: const SettingPage(),
+          goTo: const SettingScreen(),
         ),
       ],
     )

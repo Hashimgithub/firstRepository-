@@ -1,6 +1,9 @@
 {
     "hello_msg": "Hello There !",
+    "AddCourse":"Add Course",
     "home": "Home",
     "settings": "Setting",
+    "RateApp": "Rate App",
+    "shareapp": "Share App",
     "translatedtext": "This text will not be translated."
 }

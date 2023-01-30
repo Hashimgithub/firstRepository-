@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../main_page.dart';
 import '../widgets/back_ground_color.dart';
 import '../widgets/build_app_bar.dart';
 import '../widgets/days_exercise.dart';
-import '../widgets/gradient_text_button.dart';
+
 import '../widgets/my_text_form_feild.dart';
-import 'course_details_page2.dart';
+import 'main/main_page.dart';
 
 class CourseDetailsScreen1 extends StatelessWidget {
   const CourseDetailsScreen1({super.key});

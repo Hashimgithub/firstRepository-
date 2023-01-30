@@ -1,7 +1,13 @@
 {
     "hello_msg": "مية هلااا",
+    "AddCourse":"اضافة كورس",
+
     "home": "الرئيسية بوية",
     "settings": "الاعدادت",
+    "RateApp": "تقييم التطبيق",
+    "shareapp": "مشاركة التطبيق",
+
+    
     "translatedtext": "هذا النص راح يترجم",
     "Arm-Blaster-Hammer-Curl": "Arm-Blaster-Hammer-Curl"
 }

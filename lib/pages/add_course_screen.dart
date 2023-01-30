@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import '/core/language/app_localizations.dart';
 
-import '../main_page.dart';
+import 'main/main_page.dart';
 import '../widgets/back_ground_color.dart';
 import '../widgets/build_app_bar.dart';
 import '../widgets/gradient_text_button.dart';
@@ -30,7 +31,7 @@ class AddCourseScreen extends StatelessWidget {
               SizedBox(height: pageWidth / 5.5),
               gradientTextButton(
                 context: context,
-                title: 'Add Course',
+                title: "AddCourse".tr(context),
                 onTap: () {
                   Navigator.push(
                     context,

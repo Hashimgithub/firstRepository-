@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../main_page.dart';
 import '../widgets/add_and_exercise.dart';
 import '../widgets/back_ground_color.dart';
 import '../widgets/build_app_bar.dart';
+import 'main/main_page.dart';
 
 class CourseDetailsScreen2 extends StatefulWidget {
   const CourseDetailsScreen2({super.key, required this.days});

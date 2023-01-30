@@ -1,7 +1,12 @@
 {
     "hello_msg": "مرحبا",
+    "AddCourse":"اضافة كورس",
+
     "home": "الرئيسية",
     "settings": "الاعدادت",
+    "RateApp": "تقييم التطبيق",
+    "shareapp": "مشاركة التطبيق",
+
     "translatedtext":"هذا النص سوف يترجم"
 
 }

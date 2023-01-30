@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'const/const.dart';
-import 'widgets/build_app_bar.dart';
-import 'widgets/myDrawer.dart';
+import '../../const/const.dart';
+import '../../widgets/build_app_bar.dart';
+import '../../widgets/myDrawer.dart';
 
 class HomePage extends StatefulWidget {
   @override

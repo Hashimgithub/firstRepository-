@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
-import '../main_page.dart';
+import '../pages/main/main_page.dart';
 import 'back_ground_color.dart';
 import 'build_app_bar.dart';
 import 'imagePage.dart';

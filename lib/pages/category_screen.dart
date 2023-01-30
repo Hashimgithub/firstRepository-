@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../main_page.dart';
+import 'main/main_page.dart';
 import '../widgets/back_ground_color.dart';
 import '../widgets/build_app_bar.dart';
 import '../widgets/exercies_list_view.dart';

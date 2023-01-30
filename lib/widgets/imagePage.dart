@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../main_page.dart';
+import '../pages/main/main_page.dart';
 import 'back_ground_color.dart';
 import 'build_app_bar.dart';
 
